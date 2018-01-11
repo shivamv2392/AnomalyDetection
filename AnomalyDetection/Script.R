@@ -1,19 +1,19 @@
 ####################################################
 # set woking directory
 ####################################################
-setwd("E:/AnomalyDetection/KaggleAnomalyDetection")
+#setwd("E:/AnomalyDetection/KaggleAnomalyDetection")
 
 ####################################################
 # read training data and label
 ####################################################
 
-data_train <- read.csv("E:/AnomalyDetection/KaggleAnomalyDetection/german.adcg.tr", header = FALSE, sep = " ", stringsAsFactors = FALSE)
+data_train <- read.csv("D:/AnomalyDetection/DataKaggle/german.adcg.tr", header = FALSE, sep = " ", stringsAsFactors = FALSE)
 str(data)
 
-data_label <- read.csv("E:/AnomalyDetection/KaggleAnomalyDetection/german.adcg.tr.label", header = TRUE, sep = ",")
+data_label <- read.csv("D:/AnomalyDetection/DataKagglegerman.adcg.tr.label", header = TRUE, sep = ",")
 str(data_label)
 
-data_test <- read.csv("E:/AnomalyDetection/KaggleAnomalyDetection/german.adcg.tt", header = FALSE, sep = " ")
+data_test <- read.csv("D:/AnomalyDetection/DataKagglegerman.adcg.tt", header = FALSE, sep = " ")
 str(data_test)
 
 ####################################################
